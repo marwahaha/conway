@@ -5,6 +5,20 @@ The name is in progress. This is heavily inspired by Otomata by Earslap, written
 
 Check out [the work in progress](https://marwahaha.github.io/conway/).
 
+## Local setup
+
+For those that can't be bothered to fiddle with Node/Yarn locally:
+```sh
+docker-compose up --build
+```
+
+This starts an indefinite process that watches for frontend code changes and recompiles automatically.
+View the page at [localhost:3000](http://localhost:3000).
+
+To clean up containers and volumes:
+```sh
+docker-compose down -v
+```
 
 ## Debugging stuff
 
