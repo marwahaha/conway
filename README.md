@@ -7,7 +7,7 @@ Check out [the work in progress](https://marwahaha.github.io/conway/).
 
 ## Local setup
 
-For those that can't be bothered to fiddle with Node/Yarn locally:
+If you'd prefer to use a Docker container:
 ```sh
 docker-compose up --build
 ```
