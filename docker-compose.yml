@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  conway:
+    container_name: conway
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/src
+      - /node_modules
+    ports:
+      - 3000:3000
+    environment:
+      - CHOKIDAR_USEPOLLING=true #allows hot reloading
